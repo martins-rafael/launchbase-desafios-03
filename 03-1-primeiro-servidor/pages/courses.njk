@@ -1,0 +1,61 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Conteúdos</title>
+{% endblock %}
+
+{% block content %}
+    <div class="title-wraper">
+        <h1>Cursos</h1>
+    </div>
+    <div class="container">
+        <section class="cards">
+
+            <div class="card-item" id="starter">
+                <div class="img-wraper">
+                    <img src="images/starter.svg" alt="starter logo">
+                </div>
+                <div class="info-wraper">
+                    <p>11 módulos</p>
+                    <p>GRÁTIS</p>
+                </div>
+            </div>
+
+            <div class="card-item" id="launchbase">
+                <div class="img-wraper">
+                    <img src="images/launchbase.svg" alt="launchbase logo">
+                </div>
+                <div class="info-wraper">
+                    <p>45 módulos</p>
+                    <p>PAGO</p>
+                </div>
+            </div>
+
+            <div class="card-item" id="gostack">
+                <div class="img-wraper">
+                    <img src="images/gostack.svg" alt="gostack logo">
+                </div>
+                <div class="info-wraper">
+                    <p>82 módulos</p>
+                    <p>PAGO</p>
+                </div>
+            </div>
+
+        </section>
+
+        <div class="modal-overlay">
+            <div class="modal">
+                <a class="close-modal">
+                    <i class="material-icons">close</i>
+                </a>
+
+                <div class="model-content">
+                    <iframe frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+{% endblock %}
