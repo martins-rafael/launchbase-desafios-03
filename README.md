@@ -20,8 +20,8 @@
   
 ## :rocket: Desafios
 
-- Primeiro servidor
-- Arquivos nunjucks e dados dinâmicos
+- [Primeiro servidor](/03-1-primeiro-servidor)
+- [Arquivos nunjucks e dados dinâmicos](/03-2-arquivos-nunjucks-e-dados-din%C3%A2micos)
 - Página de descrição do curso
 - Refatorando Foodfy
 
