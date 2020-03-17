@@ -10,6 +10,10 @@
 
 ## :rocket: Sobre o desafio
 
+<h1 align="center">
+    <img src="demo.gif" alt="demostração" >
+</h1>
+
 Nesse desafio você deve criar uma página de descrição do curso que deve ser chamada no lugar da modal quando o usuário clicar no card do curso.
 
 ### Rota
