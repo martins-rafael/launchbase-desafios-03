@@ -22,7 +22,7 @@
 
 - [Primeiro servidor](/03-1-primeiro-servidor)
 - [Arquivos nunjucks e dados dinâmicos](/03-2-arquivos-nunjucks-e-dados-din%C3%A2micos)
-- Página de descrição do curso
+- [Página de descrição do curso](/03-3-pagina-de-descricao-do-curso)
 - Refatorando Foodfy
 
 ## :memo: Licença
