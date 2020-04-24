@@ -1,0 +1,180 @@
+/* ==== GERAL ==== */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #111;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 940px;
+}
+
+header .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 36px;
+}
+
+header .img-wraper img {
+    padding-top: 10px;
+}
+
+header .links ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 213px;
+}
+
+header .links ul li {
+    list-style: none;
+    padding-right: 72px;
+}
+
+header .links ul li a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #111;
+}
+
+footer {
+    margin-top: 50px;
+    background-color: #eee;
+}
+
+footer p {
+    margin: 0;
+    padding: 23px;
+    text-align: center;
+    color: #999;
+}
+
+/* ==== index ====*/
+
+section.banner .container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 2fr 1fr;
+    grid-template-columns: 2fr 1fr;
+    padding-top: 60px;
+    max-height: 366px;
+    background-color: #fbdfdb;
+    border-radius: 30px;
+}
+
+section.banner .banner-content {
+    padding: 60px;
+    max-width: 316px;
+}
+
+section.banner .banner-content p {
+    font-size: 18px;
+}
+
+section.most-popular {
+    margin-top: 60px;
+}
+
+.recipe-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.recipe img {
+    width: 300px;
+    height: 140px;
+    border-radius: 15px;
+}
+
+.recipe h3 {
+    margin: 5px 10px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.recipe p {
+    margin: 0 10px;
+    font-size: 14px;
+    color: #777;
+}
+
+/* ============
+==== about ==== 
+=============*/
+
+section.about h1 {
+    font-size: 24px;
+}
+
+section.about h2 {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+section.about p {
+    font-size: 18px;
+    text-align: justify;
+    color: #444;
+}
+
+/* ============
+==== recipe ===
+=============*/
+
+section.recipe-selected img {
+    border-radius: 15px;
+}
+
+section.recipe-selected .title {
+    text-align: center;
+}
+
+.title h1 {
+    margin-top: 50px;
+    margin-bottom: 5px;
+    font-size: 36px;
+}
+
+.title p {
+    margin: 0;
+    font-size: 20px;
+    color: #777;
+}
+
+.wraper {
+    margin-top: 50px;
+}
+
+.wraper-title {
+    display: flex;
+    align-items: center;
+}
+
+.wraper-title h2 {
+    margin-right: 8px;
+}
+
+.wraper-title p {
+    font-size: 12px;
+    color: #999;
+    cursor: pointer;
+}
+
+.wraper-content {
+    margin: 0;
+    font-size: 18px;
+    line-height: 28px;
+    color: #444;
+}
+
+.wraper-content ul {
+    padding-inline-start: 20px;
+}
